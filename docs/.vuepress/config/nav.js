@@ -8,8 +8,15 @@ module.exports = [
             {
                 text: 'Java',
                 items: [
-                    { text: 'JavaSE', link: '/技术文章/java/javase' },
-                    { text: 'JavaEE', link: '/技术文章/java高级/javaee' },
+                    { text: 'springboot', link: '/技术文章/java/springboot' },
+                ]
+            },
+            {
+                text: '中间件',
+                items: [
+                    { text: 'xxl-job', link: '/技术文章/中间件/xxl-job' },
+                    { text: 'RabbitMQ', link: '/技术文章/中间件/RabbitMQ常见问题' },
+                    { text: 'ZincSearch', link: '/技术文章/中间件/ZincSearch' },
                 ]
             },
             {
@@ -22,9 +29,15 @@ module.exports = [
             {
                 text: '前端',
                 items: [
-                    { text: '前端基础', link: '/技术文章/vue/vue01' },
+                    { text: 'vue3', link: '/技术文章/前端/vue01' },
                 ]
             },
+            {
+                text: '运维',
+                items: [
+                    { text: 'centos7', link: '/技术文章/运维/centos7' }
+                ]
+            }
         ]
     },
     {
