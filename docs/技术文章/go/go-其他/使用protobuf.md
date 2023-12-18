@@ -1,6 +1,6 @@
 ---
 title: '使用protobuf'
-date: 2023-09-21 18:44:15
+date: 2023-12-13 18:44:15
 tags:
 - '部署'
 - 'go'
@@ -11,8 +11,12 @@ categories:
 <!-- more -->
 
 ## 1、安装protobuf编译器
-在 官方github 选择适合自己系统的Proto编译器程序进行下载安装、配置环境变量
+在 官方[github](https://github.com/protocolbuffers/protobuf/releases)选择适合自己系统的Proto编译器程序进行下载安装、配置环境变量
 
+安装好后使用以下命令校验
+```sh
+protoc --version
+```
 ## 2、下载protobuf的golang支持库，安装protoc-gen-go
 protoc-gen-go用来将 .proto 文件转换为 Golang 代码。
 

@@ -31,13 +31,13 @@ module.exports = {
       margin: 16
     }
   },
-  "dynamic-title": {
-    showIcon: "/favicon.ico",
-    showText: "(/≧▽≦/)欢迎回来！",
-    hideIcon: "/favicon.ico",
-    hideText: "(●—●)哦吼,不要走,给个收藏吧！",
-    recoverTime: 2000
-  },
+  // "dynamic-title": {
+  //   showIcon: "/favicon.ico",
+  //   showText: "(/≧▽≦/)欢迎回来！",
+  //   hideIcon: "/favicon.ico",
+  //   hideText: "(●—●)哦吼,不要走,给个收藏吧！",
+  //   recoverTime: 2000
+  // },
   '@vuepress/nprogress': {
 
   },
@@ -45,8 +45,8 @@ module.exports = {
 
   },
   '@vuepress-reco/vuepress-plugin-rss': {
-    site_url: "https://it235.com", //网站地址
-    copyright: "君哥聊编程", //版权署名
+    site_url: "https://joe-rise.github.io", //网站地址
+    copyright: "joe's blog", //版权署名
   },
   'reading-progress': {
     //阅读进度条
